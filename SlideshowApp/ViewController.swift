@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var timer: Timer!
     var number:Int! = 0
     var status:Bool! = true
+    var backtype:Bool! = true
     @IBOutlet weak var selectimage: UIImageView!
     @IBOutlet weak var next1: UIButton!
     @IBOutlet weak var back1: UIButton!
@@ -73,6 +74,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func play1(_ sender: Any) {
+        backtype = false
         if(status == true) {
             status = false
             self.back1.isEnabled = false
@@ -113,10 +115,12 @@ class ViewController: UIViewController {
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         // 他の画面から segue を使って戻ってきた時に呼ばれる
-        self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(autoChange(_:)), userInfo: nil, repeats: true)
-        self.back1.isEnabled = false
-        self.next1.isEnabled = false
-        play1.setTitle("停止", for: .normal)
+        if(backtype == false) {
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(autoChange(_:)), userInfo: nil, repeats: true)
+            self.back1.isEnabled = false
+            self.next1.isEnabled = false
+            play1.setTitle("停止", for: .normal)
+        }
         
         
     }
