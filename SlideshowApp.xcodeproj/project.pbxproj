@@ -13,6 +13,7 @@
 		2209C06A22262423000665E6 /* SlideshowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2209C06822262423000665E6 /* SlideshowApp.xcdatamodeld */; };
 		2209C06C22262425000665E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2209C06B22262425000665E6 /* Assets.xcassets */; };
 		2209C06F22262425000665E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2209C06D22262425000665E6 /* LaunchScreen.storyboard */; };
+		2209C0772226315B000665E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2209C0762226315B000665E6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2209C06B22262425000665E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2209C06E22262425000665E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2209C07022262425000665E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2209C0762226315B000665E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2209C06122262423000665E6 /* AppDelegate.swift */,
 				2209C06322262423000665E6 /* ViewController.swift */,
 				2209C06522262423000665E6 /* Main.storyboard */,
+				2209C0762226315B000665E6 /* DetailViewController.swift */,
 				2209C06B22262425000665E6 /* Assets.xcassets */,
 				2209C06D22262425000665E6 /* LaunchScreen.storyboard */,
 				2209C07022262425000665E6 /* Info.plist */,
@@ -141,6 +144,7 @@
 				2209C06422262423000665E6 /* ViewController.swift in Sources */,
 				2209C06A22262423000665E6 /* SlideshowApp.xcdatamodeld in Sources */,
 				2209C06222262423000665E6 /* AppDelegate.swift in Sources */,
+				2209C0772226315B000665E6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
