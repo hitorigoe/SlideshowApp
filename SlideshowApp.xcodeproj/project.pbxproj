@@ -11,9 +11,11 @@
 		2209C06422262423000665E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2209C06322262423000665E6 /* ViewController.swift */; };
 		2209C06722262423000665E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2209C06522262423000665E6 /* Main.storyboard */; };
 		2209C06A22262423000665E6 /* SlideshowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2209C06822262423000665E6 /* SlideshowApp.xcdatamodeld */; };
-		2209C06C22262425000665E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2209C06B22262425000665E6 /* Assets.xcassets */; };
 		2209C06F22262425000665E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2209C06D22262425000665E6 /* LaunchScreen.storyboard */; };
 		2209C0772226315B000665E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2209C0762226315B000665E6 /* DetailViewController.swift */; };
+		2209C09C22269D9D000665E6 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 2209C09922269D9D000665E6 /* comments.png */; };
+		2209C09D22269D9D000665E6 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2209C09A22269D9D000665E6 /* folder.png */; };
+		2209C09E22269D9D000665E6 /* linux-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2209C09B22269D9D000665E6 /* linux-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,12 @@
 		2209C06322262423000665E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2209C06622262423000665E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2209C06922262423000665E6 /* SlideshowApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlideshowApp.xcdatamodel; sourceTree = "<group>"; };
-		2209C06B22262425000665E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2209C06E22262425000665E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2209C07022262425000665E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2209C0762226315B000665E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2209C09922269D9D000665E6 /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
+		2209C09A22269D9D000665E6 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		2209C09B22269D9D000665E6 /* linux-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linux-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 				2209C06322262423000665E6 /* ViewController.swift */,
 				2209C06522262423000665E6 /* Main.storyboard */,
 				2209C0762226315B000665E6 /* DetailViewController.swift */,
-				2209C06B22262425000665E6 /* Assets.xcassets */,
+				2209C09922269D9D000665E6 /* comments.png */,
+				2209C09A22269D9D000665E6 /* folder.png */,
+				2209C09B22269D9D000665E6 /* linux-logo.png */,
 				2209C06D22262425000665E6 /* LaunchScreen.storyboard */,
 				2209C07022262425000665E6 /* Info.plist */,
 				2209C06822262423000665E6 /* SlideshowApp.xcdatamodeld */,
@@ -129,8 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2209C06F22262425000665E6 /* LaunchScreen.storyboard in Resources */,
-				2209C06C22262425000665E6 /* Assets.xcassets in Resources */,
+				2209C09C22269D9D000665E6 /* comments.png in Resources */,
+				2209C09E22269D9D000665E6 /* linux-logo.png in Resources */,
 				2209C06722262423000665E6 /* Main.storyboard in Resources */,
+				2209C09D22269D9D000665E6 /* folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

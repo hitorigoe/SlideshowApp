@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     let img1 = UIImage(named:"comments")!
     let img2 = UIImage(named:"folder")!
     let img3 = UIImage(named:"linux-logo")!
-    let img4 = UIImage(named:"mirror")!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -86,7 +85,7 @@ class ViewController: UIViewController {
             status = true
             self.back1.isEnabled = true
             self.next1.isEnabled = true
-            play1.setTitle("開始", for: .normal)
+            play1.setTitle("再生", for: .normal)
             if self.timer != nil {
                 self.timer.invalidate()
                 self.timer = nil
@@ -114,14 +113,23 @@ class ViewController: UIViewController {
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         // 他の画面から segue を使って戻ってきた時に呼ばれる
-        //let resultViewController:ResultViewController = segue.destination as! ResultViewController
+        self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(autoChange(_:)), userInfo: nil, repeats: true)
+        self.back1.isEnabled = false
+        self.next1.isEnabled = false
+        play1.setTitle("停止", for: .normal)
+        
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // segueから遷移先のResultViewControllerを取得する
         let detailViewController:DetailViewController = segue.destination as! DetailViewController
-        // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
+        // 遷移先のDetailViewControllerで宣言しているx, yに値を代入して渡す
         detailViewController.x = number!
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+        }
+
     }
     
 }

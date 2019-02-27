@@ -37,7 +37,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twz-1w-1Sb">
                                 <rect key="frame" x="285" y="260" width="31" height="30"/>
-                                <state key="normal" title="開始"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="play1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C0l-uA-s00"/>
                                 </connections>

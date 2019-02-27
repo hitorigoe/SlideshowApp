@@ -16,7 +16,6 @@ class DetailViewController: UIViewController {
     let img1 = UIImage(named:"comments")!
     let img2 = UIImage(named:"folder")!
     let img3 = UIImage(named:"linux-logo")!
-    let img4 = UIImage(named:"mirror")!
     override func viewDidLoad() {
         super.viewDidLoad()
         switch x {
